@@ -6,8 +6,8 @@
   border-bottom: 1px solid rgb(84 84 84 / 0.7);
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 980px) {
   .header {
-    padding: 27px 0 31.6px 27px;
+    padding: 28px 0 42px 27px;
   }
 }
