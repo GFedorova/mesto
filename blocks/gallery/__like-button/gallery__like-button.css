@@ -1,15 +1,15 @@
 .gallery__like-button {
-    background-image: url(../../../images/like.svg);
-    background-size: contain;
-    width: 22px;
-    height: 19px;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-    transition: opacity 1 ease;
+  background-image: url(../../../images/like.svg);
+  background-size: contain;
+  width: 22px;
+  height: 19px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  transition: opacity 1 ease;
 }
 
 .gallery__like-button:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }

@@ -1,0 +1,31 @@
+.popup__about-user {
+    font-family: "Inter", Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    border: none;
+    border-bottom: 1px solid rgba(0 0 0 / 0.2);
+    min-width: 358px;
+    min-height: 27px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .popup__about-user:first-child {
+    margin-bottom: 21px;
+  }
+  
+  @media screen and (max-width: 580px) {
+    .popup__about-user {
+      min-width: 238px;
+    }
+  }
+  
+  @media screen and (max-width: 580px) {
+    .popup__about-user:first-child {
+      margin-bottom: 30px;
+    }
+  }
+  
