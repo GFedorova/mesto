@@ -17,7 +17,8 @@
   .profile__title {
     font-size: 27px;
     line-height: 33px;
-    padding: 0 10px 0 19px;
+    padding: 0 10px 14px;
     max-width: 189px;
+    margin: 0 auto;
   }
 }

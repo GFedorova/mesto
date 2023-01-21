@@ -9,6 +9,7 @@
   transition: opacity 1 ease;
   cursor: pointer;
   background-size: 10px 10px;
+  margin-top: 18px;
 }
 
 .profile__edit-button:hover {
@@ -21,7 +22,8 @@
     height: 18px;
     background-size: 7.5px 7.5px;
     position: absolute;
+    margin-top: 0;
     top: 10px;
-    right: 38px;
+    right: 35px;
   }
 }

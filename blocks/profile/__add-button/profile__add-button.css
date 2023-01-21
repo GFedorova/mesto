@@ -10,6 +10,7 @@
   cursor: pointer;
   border-radius: 2px;
   margin-left: auto;
+  box-sizing: border-box;
 }
 
 .profile__add-button:hover {
