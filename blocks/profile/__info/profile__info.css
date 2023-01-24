@@ -10,14 +10,5 @@
   .profile__info {
     margin: 0 auto;
     justify-content: center;
-
-  }
-}
-
-/*@media screen and (max-width: 741px) {
-  .profile__info {
-    margin: 0 auto;
-    justify-content: center;
-
   }
 }
