@@ -6,7 +6,14 @@
   align-items: center;
 }
 
-@media screen and (max-width: 741px) {
+/*@media screen and (max-width: 741px) {
+  .profile {
+    flex-direction: column;
+    padding: 42px 0 36px 0;
+  }
+}*/
+
+@media screen and (max-width: 980px) {
   .profile {
     flex-direction: column;
     padding: 42px 0 36px 0;

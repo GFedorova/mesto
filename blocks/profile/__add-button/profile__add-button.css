@@ -6,21 +6,35 @@
   background-color: transparent;
   border: 2px solid #fff;
   background-position: center;
-  transition: opacity 1 ease;
-  cursor: pointer;
   border-radius: 2px;
   margin-left: auto;
-  box-sizing: border-box;
 }
 
 .profile__add-button:hover {
   opacity: 0.6;
+  transition: opacity .25s ease .05s;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 741px) {
+/*@media screen and (max-width: 980px) {
+  .profile__add-button {
+    margin-left: 150px;
+  }
+}*/
+  
+
+/*@media screen and (max-width: 741px) {
   .profile__add-button {
     width: 282px;
     margin-left: 0;
     margin-top: 36px;
+  }
+}*/
+
+@media screen and (max-width: 980px) {
+  .profile__add-button {
+    width: 282px;
+    margin-left: 0;
+    margin-top: 32px;
   }
 }

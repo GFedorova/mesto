@@ -6,10 +6,18 @@
   padding: 0;
 }
 
-@media screen and (max-width: 741px) {
+@media screen and (max-width: 980px) {
   .profile__info {
     margin: 0 auto;
     justify-content: center;
-    padding: 0;
+
+  }
+}
+
+/*@media screen and (max-width: 741px) {
+  .profile__info {
+    margin: 0 auto;
+    justify-content: center;
+
   }
 }

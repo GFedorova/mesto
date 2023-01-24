@@ -5,11 +5,11 @@
   height: 19px;
   background-repeat: no-repeat;
   background-color: transparent;
-  cursor: pointer;
   border: none;
-  transition: opacity 1 ease;
 }
 
 .gallery__like-button:hover {
   opacity: 0.5;
+  transition: opacity .25s ease .05s;
+  cursor: pointer;
 }

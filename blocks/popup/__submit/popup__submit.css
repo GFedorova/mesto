@@ -12,12 +12,13 @@
   margin: 48px auto 37px;
   padding: 0;
   border-radius: 2px;
-  transition: opacity 1 ease;
-  cursor: pointer;
+  border: none;
 }
 
 .popup__submit:hover {
   opacity: 0.8;
+  transition: opacity .25s ease .05s;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 580px) {

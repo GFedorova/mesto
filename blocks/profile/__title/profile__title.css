@@ -13,11 +13,21 @@
   flex-wrap: nowrap;
 }
 
-@media screen and (max-width: 741px) {
+/*@media screen and (max-width: 741px) {
   .profile__title {
     font-size: 27px;
     line-height: 33px;
     padding: 0 10px 14px;
+    max-width: 189px;
+    margin: 0 auto;
+  }
+}*/
+
+@media screen and (max-width: 980px) {
+  .profile__title {
+    font-size: 27px;
+    line-height: 33px;
+    padding: 0 10px 10px;
     max-width: 189px;
     margin: 0 auto;
   }

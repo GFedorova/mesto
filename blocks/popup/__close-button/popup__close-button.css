@@ -5,8 +5,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
-  transition: opacity 1 ease;
-  cursor: pointer;
   border: none;
   position: absolute;
   top: -40px;
@@ -16,6 +14,8 @@
 
 .popup__close-button:hover {
   opacity: 0.6;
+  transition: opacity .25s ease .05s;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 580px) {
