@@ -8,6 +8,11 @@ const aboutAdd = editForm.querySelector('.popup__input_user_about');
 const userName = document.querySelector('.profile__title');
 const userAbout = document.querySelector('.profile__subtitle');
 
+const popupPlace = document.querySelector('.popup_type_place');
+const editFormPlace = popupPlace.querySelector('.popup__form_type_place');
+const popupOpenButtonPlace = document.querySelector('.profile__add-button');
+
+
 function popupOpen () {
     popup.classList.add('popup_opened');
     nameAdd.value = userName.textContent;
@@ -15,6 +20,12 @@ function popupOpen () {
 }
 
 popupOpenButton.addEventListener('click', popupOpen);
+
+function popupOpenPlace () {
+  popupPlace.classList.add('popup_opened');
+}
+
+popupOpenButtonPlace.addEventListener('click', popupOpenPlace);
 
 function popupClose () {
     popup.classList.remove('popup_opened');
@@ -30,3 +41,5 @@ function handleFormSubmit(evt) {
 }
 
 editForm.addEventListener('submit', handleFormSubmit);
+
+function addCardd
